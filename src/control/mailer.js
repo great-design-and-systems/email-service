@@ -49,7 +49,6 @@ export default class Mailer {
                 console.log('Message sent: ' + response);
                 callback(null, response.message);
             }
-            //smtpTransport.close();
         });
     }
 }
